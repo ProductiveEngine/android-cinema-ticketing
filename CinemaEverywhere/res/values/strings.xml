@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cinema Everywhere</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_view_movies">ViewMovies</string>
+    <string name="title_activity_movie_details">MovieDetails</string>
+    <string name="title_activity_booking">Booking</string>
+    <string name="cinemaName">Selected Cinema Name</string>
+    <string name="selectedMovieName">Selected Movie Name</string>
+    <string name="availableSeats">Available Seats:</string>
+    <string name="bookingDetails">Booking Details...</string>
+    <string name="bookButton">Book Tickets</string>
+    <string name="ticketNumber">Ticket Number</string>
+    <string name="surnameName">Surname Name</string>
+    <string name="location">Your location is</string>
+    <string name="room">Room</string>
+    <string name="movieInfo">Movie Info</string>
+    <string name="title_activity_buy_tickets">BuyTicketsActivity</string>
+    <string name="bookTicketsMenu">Buy Booked tickets</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+
+</resources>

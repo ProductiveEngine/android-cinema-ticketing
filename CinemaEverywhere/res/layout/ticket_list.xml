@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView android:id="@+id/ticketId"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|center_horizontal"
+              android:text="ticketId"
+              android:textSize="15sp"
+              android:paddingBottom="5dp"
+              android:textColor="@color/mint_green" />
+    <TextView android:id="@+id/ticketFirstName"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|center_horizontal"
+              android:text="ticketFirstName"
+              android:textSize="15sp"
+              android:paddingBottom="5dp"
+              android:textColor="@color/mint_green" />
+    <TextView android:id="@+id/ticketLastName"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|center_horizontal"
+              android:text="ticketLastName"
+              android:textSize="15sp"
+              android:paddingBottom="5dp"
+              android:textColor="@color/mint_green" />
+   
+   <TextView android:id="@+id/ticketInfo"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|center_horizontal"
+              android:text="ticketInfo"
+              android:textSize="15sp"
+              android:paddingBottom="5dp"
+              android:textColor="@color/mint_green" />
+ 
+    <TextView android:id="@+id/ticketServerId"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|center_horizontal"
+              android:text="ticketServerId"
+              android:textSize="15sp"
+              android:paddingBottom="5dp"
+              android:textColor="@color/mint_green" />
+    
+        <TextView android:id="@+id/ticketStatus"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|center_horizontal"
+              android:text="ticketStatus"
+              android:textSize="15sp"
+              android:paddingBottom="5dp"
+              android:textColor="@color/mint_green" />
+    
+    <Button
+        android:id="@+id/btn_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/download"
+        android:onClick="onBuyButtonClick"
+        android:paddingBottom="5dp"
+        android:textColor="@color/mint_green" />
+
+</LinearLayout>
